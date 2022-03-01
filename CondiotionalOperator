@@ -1,0 +1,33 @@
+package com.company;
+import java.util.Scanner;
+public class chw_18_conditional {
+
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+
+        int age ;
+        System.out.println("Enter Your age ");
+
+        age= sc.nextInt();
+        if(age>56){
+            System.out.println("You are experienced ");
+
+        }
+        else if(age>46){
+            System.out.println("You are semi-Experienced ");
+
+        }
+        else if(age>36){
+            System.out.println("Your Semi-Semi-Experienced");
+
+        }
+        else{
+            System.out.println("You are not Experienced");
+        }
+        if(age>2){
+            System.out.println("You are baby");
+        }
+
+
+    }
+}
